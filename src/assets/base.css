@@ -1,0 +1,72 @@
+@import "./colors.css";
+@import "./typography.css";
+@import "./breakpoints.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* ------------------ */
+/* RESET              */
+/* ------------------ */
+
+/* Box sizing */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* Make images easasier to work with */
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Make form elements easier to work with */
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+
+/* Remove animations for people who have turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.1ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------------------- */
+/* UTILITY CLASSES        */
+/* ---------------------- */
+.text-normal {
+  font-weight: 400;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.text-semibold {
+  font-weight: 600;
+}
+
+.text-bold {
+  font-weight: 400;
+}

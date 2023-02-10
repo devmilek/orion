@@ -35,8 +35,6 @@
 
 <script setup>
 import tokens from '../data/tokens.json'
-// import formatTokens from '../utilities/formatTokens'
-console.log(tokens)
 </script>
 
 <style scoped>

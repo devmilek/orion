@@ -12,10 +12,13 @@
   A utility-first CSS framework for rapidly building custom user interfaces.
 </p>
 
-
 # Orion
 
-This template should help get you started developing with Vue 3 in Vite.
+Innovate UI Kit and Design System for Figma and CSS
+
+## Docs
+
+Docs will be published soon.
 
 ## Recommended IDE Setup
 
